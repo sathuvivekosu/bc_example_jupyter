@@ -25,11 +25,11 @@ attributes:
   #     modules: "python/3.5"
   # @example Using combination of modules
   #     modules: "python/3.5 cuda/8.0.44"
-  modules: "python"
-
-  # Any extra command line arguments to feed to the `jupyter notebook ...`
-  # command that launches the Jupyter notebook within the batch job
-  extra_jupyter_args: ""
+#  modules: "python"
+#
+#  # Any extra command line arguments to feed to the `jupyter notebook ...`
+#  # command that launches the Jupyter notebook within the batch job
+#  extra_jupyter_args: ""
 
 # All of the attributes that make up the Dashboard form (in respective order),
 # and made available to the submit configuration file and the template ERB
@@ -41,3 +41,4 @@ attributes:
 #   option, then it will not appear in the form page that the user sees in the
 #   Dashboard
 form:
+  - cores
